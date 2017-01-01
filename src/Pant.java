@@ -45,7 +45,7 @@ public class Pant {
 
 	//constructor
 	public Pant(float x, float y, Random randGen) {
-		this.graphic = new Graphic("Pant");  //set appearance to "PANT"
+		this.graphic = new Graphic("PANT");  //set appearance to "PANT"
 		this.randGen = randGen;  //use the random number generator passed during 
 										 //instantiation
 		this.graphic.setPosition(x, y); //set the position
